@@ -4,7 +4,7 @@
 	{
 		"goodmod"
 		{
-			"name" "GoodMod 1.0"
+			"name" "GoodMod 1.0.1 (beta)"
 		}
 
 	}

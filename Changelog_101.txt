@@ -1,0 +1,54 @@
+===============================================
+==========GoodMod Changelog ver 1.0.1==========
+===============================================
+
+Hello! C7meteors here to tell you about some changes to the GoodMod competitive L4D2 config. 
+There was no official announcement for the config either, so I will be taking this opportunity 
+to introduce the configs and the idea behind it.
+
+The idea behind GoodMod is purely to balance the game, specifically to give survivors more of
+an opportunity to reach saferoom. At the same time while doing this I wanted to reward infected
+players for coordinating hits correctly so as not to make infected play useless without a quad
+cap. Just reaching saferoom should not be enough to win the game though, so I also want to reward
+better survivor play by preserving the HB/DB system, but still allowing the losing team to make the
+map.
+
+===============================================
+With all that said, I feel like version 1.0 was a step in that direction; but as with any new thing,
+had a few tweaks that could stand to be made. So here is the official changelog for version 1.0.1!
+===============================================
+
+	Godframes(spitter):
+-I wanted to reward infected for being able to combo hitting spitter with any capper, instead of
+	only relying on a hunter or charger. However this change ended up allowing spitters to
+	free spit anything and get rewarded for it. I am adjusting the initial tick delay for
+	spit from 0.2 to 0.3
+
+	Spitter Damage:
+-With the change to godframes on spitter, even with increasing the initial delay for spit damage
+	the spitter is a lot stronger than necessary. I am removing the alternate 2/3 damage per
+	tick so spitter will now do a consistant 2 damage per tick.
+
+	Ammo:
+-The idea behind the ammo increase was to allow survivors a bit of breathing room if there was a
+	late tank fight without any ammo spawns. However current starting ammo counts were way to
+	generous. I am reducing the shotgun ammo limit to 88, and SMG ammo to 750.
+
+	Tank Melee Nerf:
+-Initial tank melee nerf was reduced to 10 percent, however this results in melee's very quickly
+	shredding the tank without much to counter. Melee nerf is increased to 17%.
+
+	Weapon Spawns:
+-Unsilenced uzi does too much damage, and pump shotgun cant kill anything. I'm dumb and don't know
+	how to delete them completely, but I can further increase the number of suzi and chrome
+	spawns (xD).
+
+	Jump rocks:
+-Jk I'm keeping jump rocks enabled. Play hard, meme harder
+
+===============================================
+That's all for patch 1.0.1! Thank you to everyone helping me with testing the config, and to anyone
+who wants to give it a try, feel free to clone this repo and tell me what you think!
+
+Catch you on the flipside
+-C7
