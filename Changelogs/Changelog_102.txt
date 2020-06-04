@@ -1,0 +1,65 @@
+===============================================
+==========GoodMod Changelog ver 1.0.2==========
+=============="Look! We got guns!"=============
+===============================================
+
+I've spent a lot of time focusing on infected play without touching too much on the survivor side.
+Here's a patch that involves some tweaks to our current weapon stats, as well as some infected
+tweaks as well!
+
+===============================================
+
+	Pump Shotgun:
+-Because I am still dumb and do not know how to remove the pump shotgun, I am modifying it slightly
+	to make it better to use. Chrome is still going to be the objectively better gun, but
+	pump will at least be better to use for damage.
+		-Damage remaining at 14 per pellet
+		-Number of pellets fired reduced to 18 from 20
+		-Scatter x reduced to 3.8 from 4.25
+		-Scatter y reduced to 3.8 from 4.25
+
+	Silenced SMG:
+-I'm not sure that I agree with the current state of SMG's. The silenced appears to be using the
+	default damage value (25) which is higher than unsilenced, but the spread is much larger.
+	Typically a silenced weapon should be more accurate at the cost of doing less damage.
+	The following values are changing for the silenced SMG:
+		-Spread per shot reduced to 0.1 from 0.32
+		-Max spread when moving reduced to 0.9 from 2.15
+		-Damage fall-off distance increased from 0.79 to 1.2
+		-Damage decreased to 19 from 25
+
+	Unsilenced SMG:
+-Small tweaks to the unsilenced SMG spread:
+		-Spread per shot reduced to 0.2 from 0.26
+		-Max spread when moving reduced to 1.45 from 1.85		
+
+	Jump rocks:
+-After much feedback regarding jump rocks (mostly blake hehehe) I will be disabling jump rocks once
+	again. The goal with GoodMod is not to be a meme but to be a balanced config that will allow
+	players a better chance to survive each map. Jump rocks will accomplish the opposite of that,
+	so they will be gone now.
+		-RIP jump rock revival, 2020-2020
+
+	Spitter Damage:
+-Even after nerfing spit damage in 1.0.1, free spit is still very strong and hard to counter play.
+	I want to preserve the idea of comboing spit with SI other than Hunter/Charger, but to do
+	this effectively I feel like another nerf is necessary so that infected isn't going out of
+	their way to save spit. Spit damage will now be alternating 1-2 damage per tick.
+
+	Common limit:
+-Everyone keeps complaining about this thing I already lowered, so I'm lowering it again.
+		-Common limit reduced to 18 from (the already reduced) 20
+		-Natural horde reduced to 35 from (again already reduced) 40
+
+===============================================
+That's everything for patch 1.0.2! I do have plans to reach out to other members of the community in
+regards to more of the scripting side, because there are changes I want to make to Jockey's to make
+them more balanced in my opinion, so definitely stay tuned for future changes. I'm doing my best I'm
+just not very smart yet h a h a.
+
+Again thank you to everyone who is helping me test out these changes. Feel free to download this repo
+and slap it in your server if you want to give it a try. Full credit to SirPlease for laying the
+groundwork and developing ZoneMod and making it easy to modify.
+
+Catch you on the flipside
+-C7
